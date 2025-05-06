@@ -1,3 +1,22 @@
+GUNCELLEMELER
+```markdown
+   ## phase1'i yaparken (lab 10 yani),
+   locklari init etmeyi unutmayin (create_list icerisinde olabilir). Kodu test ederken once tum senkronizasyonlari devre disi birakin. Sonra adim adim tekrar yapin. Size verilen kod kismi olarak fikir vermesi bakimindan implementasyonlu verildi. Yoksa kod hatali!
+   
+   Listedeki add/remove/pop vb fonksiyonlara senkronizasyon ekledikten sonra bu fonksiyonlari cagirirken tekrardan lock/unlock yapmaniz gerekmiyor. Ancak iterasyon yaparsaniz onlarda ayni locki kullanmaniz gerekiyor.
+   
+   Buffer overflow/underflow vb leri icin semaphor yada condition variable kullanmaniz gerekiyor.
+   Drone datasina erisirken herbir droneun ayrica locki var onlarida kullanmayi ihmal etmeyin.
+   
+   ## Phase-2de
+   drone_fleet yerine drones listeyi kullanmaniz gerekiyor. Cunku drone ekleme ve cikarma gelen requestlerle oluyor.
+   
+   communication-protocol.md dosyasinda haberlesme icin kullanilacak komut listesi var. En az onlar olsun, fazlasi ihtiyaca gore ekleyebilirsiniz. JSON parse etme icin hazir kod kullanabilirsiniz.
+   
+   ## view.cde
+   listelerdeki locklardan bagimsiz bir yapiya kavusturursaniz iyi olur. Boylelikle, client tarafinda da kullanabilirsiniz. Bu durumda datayi kopyalamaniz veya verimli olmasi icin datadaki degisiklikleri gondermeniz gerekebilir. (snapshot aldiktan sonra o snapshota gore degisenler)
+```
+
 ## **Project: Emergency Drone Coordination System (Client-Server app)**  
 
 **Objective**:  
