@@ -6,7 +6,7 @@ Transition from a simulator to a real client-server system where drones (clients
 ---
 
 ### **Phased Implementation Plan**  
-#### **Phase 1 (given as a lab lab): Thread-Safe Lists & Simulated Clients/Servers**  
+#### **Phase 1 (given as a lab, see lab10 for details): Thread-Safe Lists & Simulated Clients/Servers**  
 **Objective**: Implement synchronization and simulate client-server interactions using threads **(no sockets yet, drones are simulated as threads)**.  
 **Duration**: 1 week  
 
@@ -15,7 +15,8 @@ Transition from a simulator to a real client-server system where drones (clients
    - **Mandatory Fixes**:  
      - Add `pthread_mutex_t` to the `List` struct in `list.h` and synchronize all operations (`add`, `remove`, `pop`).  
      - Fix memory leaks in `destroy()` by removing redundant `memset`.  
-     - Replace `sprintf` with `snprintf` in `listtest.c` to prevent buffer overflows.  
+     - Replace `sprintf` with `snprintf` everywhere
+     - remove redundant (unnecessary) lock-unlock in the code 
    - **Optional Efficiency Improvements**:  
      - Implement a *free list* to reuse nodes and reduce allocation overhead.  
 
