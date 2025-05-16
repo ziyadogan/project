@@ -1,0 +1,23 @@
+Starting stress test with 50 drones...
+Created 50 drones
+Created survivor at (234, 658)
+Created survivor at (939, 627)
+Created survivor at (61, 833)
+Created survivor at (794, 583)
+Created survivor at (905, 494)
+Created survivor at (934, 976)
+Created survivor at (7, 188)
+Created survivor at (472, 404)
+Created survivor at (944, 697)
+Created survivor at (829, 280)
+Created survivor at (986, 372)
+Created survivor at (875, 194)
+Created survivor at (786, 910)
+Created survivor at (800, 103)
+Created survivor at (146, 818)
+
+Test Results:
+Total survivors created: 15
+Total survivors helped: 0
+Active drones: 50
+Stress test completed successfully

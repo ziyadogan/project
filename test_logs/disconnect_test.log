@@ -1,0 +1,10 @@
+Starting disconnect test...
+Created test drone
+Drone disconnected
+Drone reconnected
+Drone disconnected
+Drone reconnected
+
+Test Results:
+Drone status: 0
+Disconnect test completed successfully
