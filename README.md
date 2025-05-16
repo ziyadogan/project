@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Ckx1vpHM)
 GUNCELLEMELER
 ```markdown
@@ -189,3 +190,6 @@ see [communication protocol details](communication-protocol.md)
   - `json-c` (message parsing), `SDL2` (visualization).  
 
 
+=======
+# project
+>>>>>>> fb5b45c31fa044e837e36d8f11132a9a110f18f8
