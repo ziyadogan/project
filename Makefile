@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CC = gcc
 CFLAGS = -Wall -Wextra -g -I.
 LDFLAGS = -lpthread -lSDL2 -ljson-c
@@ -36,3 +37,6 @@ clean:
 	rm -f $(OBJS) src/controller.o $(TEST_BINS) drone_simulator
 
 .PHONY: all test clean
+=======
+#TODO
+>>>>>>> 21daf67f026eb1dc7dd2fa47e2d384885b6f0ea5
